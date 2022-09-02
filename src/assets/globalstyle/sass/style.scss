@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  bottom: 0;
+  box-sizing: border-box;
+
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  color: #ffffff;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url("../../images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .content {
+    width: 1192px;
+    height: 623px;
+
+    border-radius: 40px;
+    border: 3px solid rgba(255, 255, 255, 0.18);
+
+    background: linear-gradient(
+        255.43deg,
+        rgba(15, 10, 240, 0.12) 1.61%,
+        rgba(22, 18, 206, 0.02) 137.06%
+      ),
+      linear-gradient(
+        105.08deg,
+        rgba(235, 0, 255, 0.2) -58.44%,
+        rgba(222, 5, 241, 0.05) 178.74%
+      );
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+
+    span {
+      color: #e200ff;
+    }
+
+    main {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 50px;
+    }
+
+    .title {
+      font-size: 70px;
+    }
+
+    .description {
+      text-align: left;
+      max-width: 610px;
+
+      font-size: 25px;
+
+      margin-top: 10px;
+
+      line-height: 29px;
+      letter-spacing: 0.05em;
+    }
+
+    .button {
+      margin-top: 40px;
+      margin-left: 50px;
+    }
+
+    .stats-container {
+      display: flex;
+      justify-content: space-between;
+
+      font-size: 75px;
+
+      margin-top: 50px;
+
+      .stats-descriptions {
+        font-size: 20px;
+        text-align: center;
+      }
+    }
+
+    .robotchander {
+      position: absolute;
+      display: flex;
+      margin-bottom: 80px;
+    }
+
+    .dollar-sign {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      width: 87px;
+      height: 87px;
+
+      border-radius: 50%;
+
+      background: linear-gradient(0deg, #c4c4c4, #c4c4c4),
+        linear-gradient(
+          127.15deg,
+          #c4c4c4 39.79%,
+          rgba(196, 196, 196, 0) 70.25%
+        );
+      border: 1px solid #b0b0b0;
+      position: absolute;
+      margin-bottom: 60px;
+      margin-left: -30px;
+    }
+  }
+}
