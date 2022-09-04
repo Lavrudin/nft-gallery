@@ -1,24 +1,24 @@
 @keyframes float {
   0% {
-    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
-    transform: translatey(0px) rotate(15.41deg);
+    box-shadow: 0 0.313rem 0.938rem 0rem rgba(0, 0, 0, 0.6);
+    transform: translatey(0rem) rotate(15.41deg);
   }
   50% {
-    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
-    transform: translatey(-20px) rotate(15.41deg);
+    box-shadow: 0 1.563rem 0.938rem 0rem rgba(0, 0, 0, 0.2);
+    transform: translatey(-1.25rem) rotate(15.41deg);
   }
   100% {
-    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
-    transform: translatey(0px) rotate(15.41deg);
+    box-shadow: 0 0.313rem 0.938rem 0rem rgba(0, 0, 0, 0.6);
+    transform: translatey(0rem) rotate(15.41deg);
   }
 }
 
 .card {
-  width: 226.87px;
-  height: 134.25px;
+  width: 14.179rem;
+  height: 8.391rem;
 
-  margin-bottom: 390px;
-  margin-left: -110px;
+  margin-bottom: 24.375rem;
+  margin-left: -6.875rem;
 
   position: absolute;
 
@@ -29,41 +29,40 @@
     rgba(196, 196, 196, 0.6) -44.88%,
     rgba(196, 196, 196, 0.1) 137.7%
   );
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(10px);
-  border-radius: 20px;
-  border: 2px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 0.5rem 2rem 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(0.625rem);
+  border-radius: 1.25rem;
+  border: 0.125rem solid rgba(255, 255, 255, 0.18);
   transform: rotate(15.41deg);
 
   img {
     display: flex;
     transform: rotate(-14deg);
-    margin-top: 70px;
-    margin-left: 20px;
+    margin-top: 4.375rem;
+    margin-left: 1.25rem;
   }
 
   .name {
-    margin-left: 20px;
-    margin-top: 5px;
+    margin-left: 1.25rem;
+    margin-top: 0.313rem;
 
-    font-size: 7px;
+    font-size: 0.438rem;
   }
 
   .ellipses {
     display: flex;
-
     position: absolute;
 
-    margin-bottom: 90px;
-    margin-left: 160px;
-    margin-bottom: 85px;
+    margin-bottom: 5.625rem;
+    margin-left: 10rem;
+    margin-bottom: 5.313rem;
 
     img {
       position: absolute;
     }
 
     .ellipse1 {
-      margin-left: -4px;
+      margin-left: 0.25rem;
     }
   }
 }

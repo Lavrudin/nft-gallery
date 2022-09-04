@@ -1,8 +1,9 @@
-import "./assets/globalstyle/sass/style.scss";
+import "../src/assets/globalstyle/style.scss";
+import "./App.scss";
 
-import { Button } from "./components/Button/Button";
-import { Header } from "./components/Header/Header";
-import { Card } from "./components/Card/Card";
+import { Button } from "./components/Button";
+import { Header } from "./components/Header";
+import { Card } from "./components/Card";
 
 import Ellipse from "./assets/images/Ellipse.png";
 import RobotChander from "./assets/images/robotichander.png";
@@ -40,7 +41,7 @@ function App() {
             </div>
           </div>
           <div className="images-container">
-            <Card />
+            <Card name="KISHU RAJ TYAGI" />
             <img src={Ellipse} alt="Ellipse" />
             <img
               className="robotchander"
