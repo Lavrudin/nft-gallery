@@ -20,7 +20,7 @@ Este projeto foi desenvolvido utilizando:
 
 # Status do projeto
 
-Finalizado (apenas versão desktop): link
+Finalizado (apenas versão desktop): https://nft-gallery-snowy.vercel.app/
 
 <br>
 
